@@ -1,0 +1,17 @@
+{
+    "short_name": "CalcVES", // Nombre corto de la aplicación, usado cuando se muestra en la pantalla de inicio o en áreas con espacio limitado.
+    "name": "Calculadora VES USDT", // Nombre completo de la aplicación, se muestra en instalaciones y otras interfaces completas.
+    "icons":[
+        {
+            "src":"img/icono.png", // Ruta a la imagen del ícono de la aplicación.
+            "sizes":"512x512", // Tamaño del ícono en píxeles.
+            "type":"image/png" // Tipo de archivo del ícono.
+        }
+    ],
+    "start_url":"/index.html", // URL de inicio de la aplicación cuando se abre desde el icono.
+    "display": "standalone", // Modo de visualización, "standalone" hace que se comporte como una app nativa sin barra de navegador.
+    "background_color": "#F5F5F8", // Color de fondo para la pantalla de carga y cuando no se especifica un color de fondo en el CSS.
+    "theme_color": "#F5F5F8", // Color del tema de la aplicación, afecta a la barra de herramientas del navegador y otros elementos de UI.
+    "orientation": "portrait", // Orientación preferida de la aplicación, en este caso, vertical.
+    "categories": ["shopping","business"] // Categorías de la aplicación para clasificarla en tiendas de aplicaciones y motores de búsqueda.
+}
